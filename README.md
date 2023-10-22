@@ -142,6 +142,6 @@ while True:
         print("exiting...")
         break
 ```
-###this is our last output 
+###This is our last output 
 ![image](https://github.com/MehmetAliKOYLU/Heart-Attack-Analysis-AI/assets/91757385/dcef03a4-6384-41f9-ade0-af2f34f1924a)
 
