@@ -88,7 +88,7 @@ print(f"Accuracy with optimal k value: %{accuracy * 100:.2f}")
 sc = MinMaxScaler()
 sc.fit_transform(x_raw_data.values)
 ```
-###we are creating our random forest classifier
+### we are creating our random forest classifier
 ```
 RFCmodel = RandomForestClassifier()  
 RFCmodel.fit(x_train,y_train)
@@ -100,11 +100,11 @@ print(classification_report(y_test, rfc_pred))
 print( "\n" )
 ```
 
-###we choose the classifiers that have the best accuracy rate
-###we are using random forest classifier for training and testing purposes because accuracy score is better than other classifiers
+### we choose the classifiers that have the best accuracy rate
+### we are using random forest classifier for training and testing purposes because accuracy score is better than other classifiers
 
 
-###function for new predictions
+### function for new predictions
 ```
 def newprediction():
     v1=int(input("age >> "))
@@ -130,7 +130,7 @@ def newprediction():
         print("heart attack not detected")
     return new_prediction
 ```
-###and we use while loop for a new predictions
+### and we use while loop for a new predictions
 ```
 while True:
     newprediction()
@@ -142,6 +142,6 @@ while True:
         print("exiting...")
         break
 ```
-###This is our last output 
+### This is our last output 
 ![image](https://github.com/MehmetAliKOYLU/Heart-Attack-Analysis-AI/assets/91757385/dcef03a4-6384-41f9-ade0-af2f34f1924a)
 
