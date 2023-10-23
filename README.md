@@ -2,6 +2,8 @@
 This AI, shows whether you are at risk of having a heart attack
 
 
+
+
 ###These are the libraries We will use for the project
 ```
 import pandas as pd
@@ -144,4 +146,8 @@ while True:
 ```
 ### This is our last output 
 ![image](https://github.com/MehmetAliKOYLU/Heart-Attack-Analysis-AI/assets/91757385/dcef03a4-6384-41f9-ade0-af2f34f1924a)
+
+## Contributors
+- [Yucel KANDAS](https://github.com/Yucel00)
+
 
