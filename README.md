@@ -4,7 +4,7 @@ This AI, shows whether you are at risk of having a heart attack
 
 
 
-###These are the libraries We will use for the project
+### These are the libraries We will use for the project
 ```
 import pandas as pd
 import matplotlib.pyplot as plt
